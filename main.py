@@ -226,6 +226,10 @@ print("#########################################")
 from searching import binary_search, linearsearch
 
 
+lista = [2,6,4,7,9,43,1,2,3,4,2,1,3,5,7]
+dato = 9
+print(binary_search.bubble_sort(lista))
+print(binary_search.busqueda_dato(dato))
 
 
 
@@ -243,6 +247,6 @@ print("#########################################")
 lista = [1,4,5,6,8,5,32,54,32,67,8]
 valor = 8
 
-print(linearsearch.linearSearchFunction(lista,valor))
+print("Esta en la posicion:    ", linearsearch.linearSearchFunction(lista,valor))
 
 

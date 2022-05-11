@@ -4,9 +4,9 @@ def selection_sorte(arr):
         i = 1
 
         for j in range (i + 1, len(arr)):
-            if arr[j] < arr[l]:
+            if arr[j] < arr[i]:
                 l = j
         
-        arr[i], arr[l] = arr[l], arr[i]
+        arr[i], arr[j] = arr[j], arr[i]
 
     return arr
