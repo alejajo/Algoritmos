@@ -1,4 +1,4 @@
-def sum_of_firts():
+def sum_of_firts(n):
     n= int(input("Ingrese el numero hasta donde desea llegar:"))
     print("n:",n)
 
